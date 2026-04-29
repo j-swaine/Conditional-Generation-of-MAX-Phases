@@ -1,0 +1,38 @@
+# Core dependencies for MAX phase paper reproduction
+# Python 3.9+
+
+# Data manipulation and numerical computing
+pandas>=1.5.0
+numpy>=1.23.0
+pyarrow>=10.0.0
+
+# Scientific computing and statistics
+scipy>=1.9.0
+
+# Crystallography and materials science
+pymatgen>=2023.1.0
+smact==3.0.1
+
+# Visualization
+matplotlib>=3.5.0
+bokeh>=3.0.0
+selenium>=4.0.0
+
+# Utilities
+tqdm>=4.60.0
+huggingface-hub>=0.16.0
+
+# Browser drivers for selenium (bokeh PNG export)
+firefox>=100.0
+geckodriver>=0.33.0
+
+# Jupyter support
+jupyter>=1.0.0
+ipython>=8.0.0
+ipywidgets>=7.6.0
+
+# Optional dev dependencies (uncomment if needed)
+# pytest>=7.0
+# black>=22.0
+# ruff>=0.1.0
+# mypy>=1.0
